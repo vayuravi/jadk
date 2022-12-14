@@ -1,13 +1,11 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>My Beautiful HTML Code</title>
+	<title>Body Measurement Diagram</title>
 	<style>
 		body {
-			background-color: #FFFFFF;
 			font-family: Arial, sans-serif;
 			font-size: 16px;
-			color: #333333;
 		}
 
 		h1 {
@@ -17,24 +15,46 @@
 			text-align: center;
 		}
 
-		p {
-			line-height: 1.5;
-			margin-bottom: 10px;
+		form {
+			margin-top: 20px;
+			margin-bottom: 20px;
+			text-align: center;
 		}
 
-		a {
-			color: #0066CC;
-			text-decoration: none;
+		input[type="number"] {
+			width: 50px;
+			font-size: 16px;
+			padding: 5px;
+			border: 1px solid #CCCCCC;
+			border-radius: 5px;
 		}
 
-		a:hover {
-			text-decoration: underline;
+		input[type="submit"] {
+			font-size: 16px;
+			padding: 5px;
+			border: 1px solid #0066CC;
+			border-radius: 5px;
+			background-color: #0066CC;
+			color: #FFFFFF;
+		}
+
+		input[type="submit"]:hover {
+			cursor: pointer;
+			background-color: #003399;
+		}
+
+		#diagram {
+			margin-top: 20px;
+			width: 500px;
+			height: 500px;
+			border: 1px solid #CCCCCC;
+		}
+
+		#diagram p {
+			font-size: 12px;
+			text-align: center;
 		}
 	</style>
-</head>
-<body>
-	<h1>My Beautiful Wife RADHIKA ETIKALA</h1>
-	<p>Welcome to my beautiful HTML code! This is a simple example of how you can use HTML, CSS, and a bit of creativity to create a visually appealing web page.</p>
-	<p>Feel free to use this code as a starting point for your own projects. If you have any questions, you can contact me at <a href="mailto:your@email.com">your@email.com</a>.</p>
-</body>
-</html>
+	<script>
+		function drawDiagram() {
+
